@@ -1,0 +1,44 @@
+/* Position static: default follows
+the flow of html elements
+Position relative: positioned relative
+to its defined pos (top, bottom, left, right)
+Position absolute: keeps html elements specifically
+where you assign them in location follows
+relative positioning of parent
+*** Browser will use other content
+to fill up the space */
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  /* position: relative; */
+}
+
+/* Browser fills in space
+content once took up - which
+creates this overlapped look */
+.one {
+  background: blue;
+  color: white;
+  position: absolute;
+}
+
+.two {
+  background: green;
+  color: white;
+  /* position: relative; */
+}
+
+.special {
+  background: pink;
+  font-size: 20px;
+  color: black;
+  /* position: absolute; */
+  top: 0px;
+  left: 0px;
+}
+
+.container {
+  min-height: 100vh;
+  background: blue;
+}

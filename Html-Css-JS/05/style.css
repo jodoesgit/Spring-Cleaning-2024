@@ -1,0 +1,115 @@
+/* Pixels - Absolute Values (Single Dot on Screen)
+Font-size: Size of the font
+Width: Width of an element
+Height: Height of an element */
+
+/* PIXELS: Size does not change - regardless of window size - because pixels are absolute */
+h1 {
+  font-size: 60px;
+  background: blue;
+  color: yellow;
+  width: 400px;
+  height: 100px;
+}
+
+/* % Percentages - are relative units - and DEPEND on the parent */
+
+/* Here we give this parent element height/width in pixel units */
+.outer {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+}
+
+/* Depends on outer element (parent) in order to specify the percentages */
+.inner {
+  width: 75%;
+  height: 50%;
+  background-color: red;
+}
+
+/* Ems - relative unit - depends on parent
+1em 16px - default
+1em = base value (16px) * number (1) = 16px
+2em = base value (16px) * number (2) = 32px
+2em = base value (10px) * number (2) = 20px */
+
+/* Parent Div */
+.ems {
+  font-size: 10px;
+}
+
+.absolute {
+  font-size: 32px;
+}
+
+/* Default 16 - set of 10px via .ems */
+.relative {
+  font-size: 2em;
+}
+
+/* Rems - depend on the root value
+1rem = base value (16px by default) * number (1) */
+
+.rems {
+  font-size: 5px;
+}
+
+.dependent {
+  font-size: 2rem;
+}
+
+/* Viewport Unots
+vh - height of percentage of screen.,
+vw - width of percentage of screen */
+
+/* Styling to get rid of sizing issues */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Takes up 100% width and height of screen */
+.hero {
+  background: green;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Half of the viewport */
+.about {
+  background-color: gray;
+  height: 50vh;
+  width: 50vw;
+}
+
+/* CALCULATE
+CALC() PERFORMS + - * /
+MATH OPERATIONS - MIX & MATCH */
+
+.calculate {
+  background-color: blue;
+  height: 100vh;
+  color: white;
+  font-size: 3rem;
+}
+
+.calc {
+  background-color: red;
+  height: calc(100vh * 2rem);
+}
+
+/* Height: auto; min-height; max-height; overflow 
+By default - height is auto-adjusted to content size in browser
+Can use overflow to control excess content
+Can use scroll to add scrollbar
+*/
+
+.example {
+  background-color: green;
+  width: 10rem;
+  height: 25rem;
+  overflow: hidden;
+  overflow: scroll;
+}

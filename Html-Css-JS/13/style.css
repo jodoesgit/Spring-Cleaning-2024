@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  color: white;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.big-img {
+  background: url("big.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Adding a linear-gradient
+over a background image - you
+can combine them using a comma 
+You need to use RGBA else you 
+cover the image - you can just
+add one color overlay
+
+You can also adjust the direction
+to bottom is default - just make 
+sure you add all the necessary
+commas and cover all the elements
+your editor might delete (i.e. - url
+in front of url()
+*/
+.folder-img {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.3),
+      rgba(255, 100, 239, 0.5)
+    ),
+    url(big.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Can also write in shorthand 
+must have center/cover in same format/order
+but fixed and no-repeat values can switch in location*/
+.small-img {
+  background: linear-gradient(
+      to right,
+      rgba(167, 4, 20, 0.3),
+      rgba(156, 230, 0, 0.6)
+    ),
+    url("./images/folder-img.jpeg")
+      center/cover fixed no-repeat;
+}

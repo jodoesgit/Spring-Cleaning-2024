@@ -1,0 +1,21 @@
+body {
+  background: #3b4148;
+}
+
+.container {
+  background-color: #9f4c4c;
+}
+
+h3 {
+  color: #52c452;
+}
+
+/* Style specifically the h3 elements inside div */
+div h3 {
+  color: #54509b;
+}
+
+/* Style w/in specific classes of div */
+.special-container {
+  background-color: rgba(0, 0, 0, 0.9);
+}

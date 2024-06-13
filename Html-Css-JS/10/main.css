@@ -1,0 +1,6 @@
+/* Box Model - boxes around actual element w/ properties you can alter */
+
+/* Border hack - You can add a border to view elements - and then remove it later */
+* {
+  border: 2px solid red;
+}

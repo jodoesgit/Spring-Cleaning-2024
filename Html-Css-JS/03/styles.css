@@ -1,0 +1,37 @@
+/* Text Color */
+.first {
+  color: pink;
+}
+
+/* Background */
+.second {
+  background: pink;
+}
+
+/* RGB RED GREEN BLUE 0-255
+BLACK 0 0 0
+WHITE 255 255 255 
+GRAY SAME # BETWEEN <-> */
+#third {
+  color: rgb(150, 63, 10);
+  background-color: rgb(65, 65, 65);
+}
+
+/* Custom CSS Colors */
+#four {
+  color: wheat;
+  background-color: yellowgreen;
+}
+
+/* RGBA - Transparency 
+1 = Solid 0.5 Transparent 0 Invisible */
+.five {
+  color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(0, 255, 200, 0.03);
+}
+
+/* Hexadecimals */
+#six {
+  color: #dfff00;
+  background-color: #fff;
+}
