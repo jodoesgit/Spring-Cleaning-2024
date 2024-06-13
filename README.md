@@ -10,9 +10,9 @@ Yes, unfortunately the log of my commits disappear when I delete my personal rep
 
 I have organized projects into sub-folders which are nested under a singular parent topic.  Anything not fitting into a singular subject have been moved a miscellaneous folder.  Please feel free to click around and explore the various folders.  Some project examples are hosted with links listed in their individual readmes.
 
-* [React](https://website-name.com 'react-18')
-* [HTML CSS Javascript](https://website-name.com 'html-css-js')
-* [Etc.](https://website-name.com 'etcetera')
+* [React](https://github.com/jodoesgit/Spring-Cleaning-2024/tree/main/React 'react-18')
+* [HTML CSS Javascript](https://github.com/jodoesgit/Spring-Cleaning-2024/tree/main/Html-Css-JS 'html-css-js')
+* [Etc.](https://github.com/jodoesgit/Spring-Cleaning-2024/tree/main/Etc. 'etcetera')
 
 ## Future Commits
 
